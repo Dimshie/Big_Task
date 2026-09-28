@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Dimas Aji Wibowo A12.2025.07332</title>
+  </head>
+  <body>
+    <header>
+      <center>
+        <h1>Portofolio Dimas Aji Wibowo A12.2025.07332</h1>
+        <h3>Program Studi Sistem Informasi Universitas Dian Nuswantoro</h3>
+        <hr size="3" color="black" width="1000" />
+      </center>
+    </header>
+    <nav>
+      <center>
+        <a href="#profil">Profil saya</a>
+        <a href="#pendidikan">Riwayat Pendidikan</a>
+        <a href="#keahlian">Keahlian & Hobi</a>
+        <a href="#proyek">Proyek Terkait</a>
+        <a href="#kontak">Kontak</a>
+      </center>
+    </nav>
+    <hr size="1" color=":gray" width="1000" />
+
+    <section id="profil">
+      <h2>A. Profil Saya</h2>
+      <img
+        src="gambar/minion.png"
+        alt="Foto Profil"
+        width="150"
+        height="180"
+        align="left"
+        hspace="20"
+      />
+      <p>
+        Nama saya Dimas Aji Wibowo, mahasiswa Program Studi Sistem Informasi.
+        Saya memiliki minat pada bidang teknologi informasi, khususnya
+        pengembangan website dan pemrograman. Saya memiliki ketertarikan untuk
+        mempelajari dan mengembangkan kemampuan di bidang teknologi melalui
+        perkuliahan, tugas, dan berbagai proyek.
+      </p>
+      <p>
+        Website ini dibuat sebagai media untuk memperkenalkan diri, menampilkan
+        informasi pribadi, pendidikan, keterampilan, serta pengalaman yang saya
+        miliki. Website dikembangkan menggunakan HTML tanpa CSS dengan struktur
+        yang sederhana dan mudah dipahami.
+      </p>
+      <br clera="all" />
+    </section>
+    <br />
+    <section id="pendidikan">
+      <h2>B. Riwayat Pendidikan</h2>
+      <table border="1" cellpadding="8" cellspacing="0" width="100%">
+        <tr bgcolor="cyan">
+          <th>Tingkat Pendidikan</th>
+          <th>Nama Instansi/Sekolah</th>
+          <th>Tahun</th>
+          <th>Keterangan</th>
+        </tr>
+        <tr>
+          <td>Sekolah Menengah Atas (SMA)</td>
+          <td>SMA N 1 Jakenan</td>
+          <td>2022-2025</td>
+          <td>Jurusan IPA</td>
+        </tr>
+        <tr>
+          <td>Perguruan Tinggi (S1)</td>
+          <td>
+            <a href="http://www.dinus.ac.id" target="blank"
+              >Universitas Dian Nuswantoro</a
+            >
+          </td>
+          <td>2025-2028</td>
+          <td>Sistem Informasi/td></td>
+        </tr>
+      </table>
+    </section>
+
+    <br />
+
+    <section id="keahlian">
+      <h2>C. Keahlian & Hobi</h2>
+      <h3>1. Keahlian Utama</h3>
+      <ul>
+        <li>Pemrograman Web Dasar (html,php)</li>
+        <li>Pengolahan Database Mysql</li>
+        <li>Pemodelan Sistem (DFD&ERD)</li>
+      </ul>
+      <h3>2. Hobi</h3>
+      <ol>
+        <li>
+          Membaca Dokumentasi di<a
+            href="https://www.w3schools.com"
+            target="_blank"
+            >W3Schools</a
+          >
+        </li>
+        <li>Eksplorasi pembuatan aplikasi web</li>
+        <li>Menulis</li>
+      </ol>
+    </section>
+
+    <br />
+
+    <section id="proyek">
+      <h2>D. Proyek & Aktivitas Akademik</h2>
+      <article>
+        <h3>Tugas Pemrograman Web 1</h3>
+        <p>
+          Proyek ini adalah pembuatan halaman profil dan form interaktif
+          menggunakan struktur elemen semantik HTML,tabel terstruktur, dan
+          beberapa eleemen input form.
+        </p>
+      </article>
+
+      <aside>
+        <hr />
+        <p>
+          <b>Catatan Kampus:</b>Informasi Jadwal Perkuliahan dan kurikulum dapat
+          dilihat di portal
+          <a href="https://mhs.dinus.ac.id" target="_blank">Siadin Udinus</a>.
+        </p>
+        <hr />
+      </aside>
+    </section>
+    <br />
+
+    <section id="kontak">
+      <h2>E. form kontak Pengunung</h2>
+      <p>
+        Silahkan mengisi form dibawah ini untuk mengirimkan pesan kepada saya:
+      </p>
+
+      <form action="simpan.php" method="post">
+        <table border="0" cellpadding="5">
+          <tr>
+            <td><label for="fnama">Nama Lengkap</label></td>
+            <td>:</td>
+            <td>
+              <input type="text" id="fnama" nama="fnama" size="30" required />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="femail">Email</label></td>
+            <td>:</td>
+            <td>
+              <input
+                type="email"
+                id="femail"
+                name="femail"
+                size="30"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td>
+              <input type="radio" id="pria" nama="fjkel" value="pria" />
+              <label for="pria">Pria</label>
+              <input type="radio" id="wanita" nama="fjkel" value="wanita" />
+              <label for="wanita">Wanita</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="fprodi">program studi</label></td>
+            <td>:</td>
+            <td>
+              <select id="fprodi" name="fprodi">
+                <option value="dkv">Desain Komunikasi Visual</option>
+                <option value="ti">Teknik Informatika</option>
+                <option value="si">Sistem Informasi</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="ftglhr">Tanggal Lahir</label>
+            </td>
+            <td>:</td>
+            <td>
+              <input type="date" id="ftglhr" name="ftglhr" required />
+            </td>
+          </tr>
+          <tr>
+            <td>Hobi/Minat</td>
+            <td>:</td>
+            <td>
+              <input
+                type="checkbox"
+                id="coding"
+                name="fhobi[]"
+                value="coding"
+              />
+              <label for="coding">Coding</label>
+              <input
+                type="checkbox"
+                id="membaca"
+                name="fhobi[]"
+                value="membaca"
+              />
+              <label for="membaca">Membaca</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="ftgs">Tugas</label>
+            </td>
+            <td>:</td>
+            <td>
+              <input type="file" id="ftgs" name="ftgs" required />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="fpass">Password</label>
+            </td>
+            <td>:</td>
+            <td>
+              <input type="password" id="fpass" name="fpass" required />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="fpesan">Pesan</label></td>
+            <td>:</td>
+            <td>
+              <textarea
+                id="fpesan"
+                name="fpesan"
+                rows="5"
+                cols="30"
+                required
+              ></textarea>
+            </td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>
+              <input type="submit" value="Kirim" />
+              <input type="reset" value="Batal" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </section>
+    <br />
+    <hr size="1" color="black" />
+
+    <footer>
+      <center>
+        <p>
+          &copy; 2026 Dimas Aji Wibowo - Pemrograman web Sistem Informasi
+          Universitas DIan Nuswantoro
+        </p>
+      </center>
+    </footer>
+  </body>
+</html>
